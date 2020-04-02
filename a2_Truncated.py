@@ -217,14 +217,14 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("-n_dim",
                         "--number_dim_reduce",
-                        default=642 ,
+                        default=False ,
                         type=int,
                         required=False,
                         help="int for number of dimension you want to reduce the features for")
 
     parser.add_argument("-m",
                         "--model_id",
-                        default=2,
+                        default=False,
                         type=int,
                         required=False,
                         help="id of the classifier you want to use")
